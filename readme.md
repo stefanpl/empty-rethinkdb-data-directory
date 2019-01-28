@@ -1,0 +1,1 @@
+When using the rethinkdb docker image via a docker-compose stack, there is a bug where the container cannot create the metadata file. The files in rethinkdb-data are metadata taken from an empty database. 

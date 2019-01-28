@@ -1,0 +1,19 @@
+2019-01-28T08:28:52.707352218 5.462596s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2019-01-28T08:28:52.714825159 5.470070s notice: Initializing directory /data/rethinkdb_data
+2019-01-28T08:28:52.714900340 5.470143s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2019-01-28T08:28:52.714924880 5.470167s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2019-01-28T08:28:52.718416051 5.473660s notice: Running on Linux 4.13.0-43-generic x86_64
+2019-01-28T08:28:52.718462223 5.473705s notice: Loading data from directory /data/rethinkdb_data
+2019-01-28T08:28:52.834601203 5.589846s info: Automatically using cache size of 1265 MB
+2019-01-28T08:28:53.909818374 6.665062s notice: Listening for intracluster connections on port 29015
+2019-01-28T08:28:53.918929360 6.674172s notice: Listening for client driver connections on port 28015
+2019-01-28T08:28:53.919080595 6.674323s notice: Listening for administrative HTTP connections on port 8080
+2019-01-28T08:28:54.002281520 6.757524s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2
+2019-01-28T08:28:54.093136056 6.848379s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2
+2019-01-28T08:28:54.159103685 6.914347s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2
+2019-01-28T08:28:54.159141376 6.914384s notice: Server ready, "ea625c5f554c_u08" 10db994d-ef37-4c3a-a245-1169122d2b0a
+2019-01-28T08:31:28.254108950 161.009352s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2019-01-28T08:31:28.254266981 161.009509s notice: Shutting down client connections...
+2019-01-28T08:31:28.254354470 161.009597s notice: All client connections closed.
+2019-01-28T08:31:28.254361012 161.009603s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-01-28T08:31:28.259275460 161.014518s notice: Storage engine shut down.
